@@ -42,15 +42,15 @@
 
 
 //Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-void FindCube(int N)
-{
-    double current=1;
-    while (current<=N)
-    {
-      Console.WriteLine($"Cube {current} = {Math.Pow(current,3)}");
-      current++;
-    }
-}
-Console.Write (" Input digit: ");
-int digit = Convert.ToInt32(Console.ReadLine());
-FindCube(digit);
+// void FindCube(int N)
+// {
+//     double current=1;
+//     while (current<=N)
+//     {
+//       Console.WriteLine($"Cube {current} = {Math.Pow(current,3)}");
+//       current++;
+//     }
+// }
+// Console.Write (" Input digit: ");
+// int digit = Convert.ToInt32(Console.ReadLine());
+// FindCube(digit);

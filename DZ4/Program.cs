@@ -45,7 +45,7 @@
 // void ShowArray(int[] array)
 // {
 //   for(int i=0; i<array.Length; i++)
-//       Console.Write(array[1] +" ");
+//       Console.Write(array[i] +" ");
 //   Console.WriteLine();
 // }
 
@@ -61,29 +61,29 @@
 
 
 //Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
-int[] CreateRandomArray(int size)
-{
-    int[] NewArray=new int[size];  
+// int[] CreateRandomArray(int size)
+// {
+//     int[] NewArray=new int[size];  
 
-    for(int i=0; i<size; i++)
-    {
+//     for(int i=0; i<size; i++)
+//     {
       
-       Console.Write($"Input element array at index {i}: ");
-       NewArray[i]=Convert.ToInt32(Console.ReadLine());    
-    }
-    return NewArray;
-}
-void ShowArray(int[] array)
-{
-  Console.WriteLine("Array:");
-  for(int i=0; i<array.Length; i++)
-      Console.Write(array[i] +" ");
-  Console.WriteLine();
-}
+//        Console.Write($"Input element array at index {i}: ");
+//        NewArray[i]=Convert.ToInt32(Console.ReadLine());    
+//     }
+//     return NewArray;
+// }
+// void ShowArray(int[] array)
+// {
+//   Console.WriteLine("Array:");
+//   for(int i=0; i<array.Length; i++)
+//       Console.Write(array[i] +" ");
+//   Console.WriteLine();
+// }
 
 
-Console.Write("Input size for array: ");
-int a= Convert.ToInt32(Console.ReadLine());
-int[] myArray=CreateRandomArray(a);
-ShowArray(myArray);
+// Console.Write("Input size for array: ");
+// int a= Convert.ToInt32(Console.ReadLine());
+// int[] myArray=CreateRandomArray(a);
+// ShowArray(myArray);
 
